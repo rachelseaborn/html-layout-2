@@ -1,0 +1,75 @@
+.bg-image {
+    
+    background-image: url("./images/spacex_rocket.jpeg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+header {
+    width: 100vw;
+    height: 75px;
+    /*background: none; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2; 
+}
+
+header img {
+    height: 120px;
+    width: 120px;
+    margin-left: 30px;
+    /* overflow: hidden; */
+    
+    
+}
+
+nav {
+   display: flex;
+   width: 50%;
+   justify-content: space-evenly;
+   flex-direction: row;
+   margin-right:500px;  
+      
+   
+}
+
+a:link {
+    color: white;
+    }
+
+a:visited {
+    color: white;
+}    
+
+section {
+    height: 150px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    position: fixed; 
+    margin-top: 200px;
+    margin-left: 40px;
+    z-index: 2;
+}
+
+section h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    padding: 0;
+    }
+
+    section img {
+        height: 40px;
+        width: 80px;
+    }
